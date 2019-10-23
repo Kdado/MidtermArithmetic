@@ -19,21 +19,11 @@ public class ArithmeticBase
     double calculate(double x, double y) 
         {
         Scanner sc =new Scanner(System.in);
-        System.out.println("enter String");
-        String s= sc.next();
-        switch (s.toUpperCase()) 
-        {
-            case "PLUS":
-                return x + y;
-            case "MINUS":
-                return x - y;
-            case "TIMES":
-                return x * y;
-            case "DIVIDE":
-                return x / y;
-            default:
-                throw new AssertionError("Unknown operations " + this);
-        }
-    }
+        System.out.println("Enter an arithmetic operation");
+        String apply = String.valueOf(sc.next().toUpperCase());
+        Operation() = apply;
+        
+        
+    } return x , y ;
    
 }
