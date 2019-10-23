@@ -7,7 +7,7 @@ package arithmetic;
 
 /**
  *
- * @author Revenger Mini
+ * @author Kevin Dado
  */
 public enum Operation {
 

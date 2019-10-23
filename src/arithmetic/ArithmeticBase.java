@@ -11,6 +11,7 @@ import java.util.Scanner;
  * from user and execute the arithmetic operation
  * change the code to use enum instead String and add object oriented principles satisfy as comment in the code
  * @author sivagamasrinivasan
+ * @Contributor Kevin Dado
  * date 10/22
  */
 public class ArithmeticBase 
